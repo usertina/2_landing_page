@@ -22,7 +22,7 @@ h1{
 	margin-bottom: 2rem;
 	
 }
-ul li:hover{background-color: red;}
+ul li:hover{background-color: rgb(182, 22, 22);}
 
 div img {
 	width: 100%;
@@ -47,16 +47,22 @@ div img {
 	padding: 2rem;
 }
 h5{
-	color: red;
+	color: rgb(182, 22, 22);
 	font-size: 1.5rem;
 	margin-top: 1rem;
 	
 }
-.items, .items2{
+.items, .items2, .items3{
 	display:grid;
 	grid-template-columns: repeat(3,1fr);
 	padding: 10rem;
 	gap: 40px;
+}
+.items3{display:grid;
+	grid-template-columns: repeat(2,1fr);
+	padding: 10rem;
+	gap: 40px;
+
 }
 
 .h4{
@@ -79,7 +85,7 @@ p{
 }
 	
 .get{
-	background-color: red;
+	background-color: rgb(182, 22, 22);
 	color: white;
 	width: 20rem;
 	height: 5rem;
@@ -95,6 +101,52 @@ p{
 .button2{
 	background-color: black;
 	color: white;
-	font-size: small;
+	height: 2.5rem;
+}
 
+footer{
+	background-color:rgb(53, 48, 48);
+	color: white;
+	width: 100%;
+	height: 300rem;
+
+} 
+
+
+aside{
+    width: 20%;
+    height: 400px;
+    float: left;}
+
+.items4 figure {
+	max-width: 100px;
+	
+}
+.items4{
+	margin-right: 50rem;
+}
+.last{
+	width: 30rem;
+	height: 2rem;
+	margin-left: 80rem;	
+}
+
+
+.buttom_last{
+	background-color:rgb(182, 22, 22);
+	color: white;
+	width: 7rem;
+	height: 2.5rem;
+
+}
+.texto{
+	display: flex;
+	flex-direction: column;
+}
+
+article h3{margin-left: 7rem;
+	margin-top: -4rem;
+}
+article p{
+	margin-left: 7rem;
 }
