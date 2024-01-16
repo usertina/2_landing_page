@@ -50,7 +50,6 @@ h5{
 	color: rgb(182, 22, 22);
 	font-size: 1.5rem;
 	margin-top: 1rem;
-	
 }
 .items, .items2, .items3{
 	display:grid;
@@ -67,6 +66,9 @@ h5{
 
 .h4{
 	font-size: xx-large;
+	text-align: center;
+}
+h2{
 	text-align: center;
 }
 p{
@@ -115,7 +117,8 @@ footer{/* comienzo del footer */
 .items4 {/* los iconos de flechas */
     display: flex;
 	flex-direction: column;
-	grid-column: 1/3; /* Para alinear verticalmente en el centro */
+	grid-column: 1/3; 
+	margin-left: 7rem;
 }
 
 .items4 img {
@@ -142,7 +145,11 @@ footer{/* comienzo del footer */
 .lista1 ul , .lista2 ul{
 	display: flex;
 	flex-direction: column;
-	list-style-type: none;	
+	list-style-type: none;
+	
+}
+.lista1  h3 strong,.lista2  h3 strong {
+	margin-left: 10rem;
 }
 
 a{
@@ -152,3 +159,15 @@ a{
 	width: 2rem;
 }
 
+ h6{
+	color: gray;
+	background-color: black;
+	text-align: center;
+}
+/* Espacio para las Media Queries */
+
+ @media (max-width1000px) {
+   .section3{
+	grid-template-columns: repeat(2,1fr);
+    
+} }
